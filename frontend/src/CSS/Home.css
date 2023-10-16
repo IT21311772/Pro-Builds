@@ -1,0 +1,66 @@
+.about-section {
+    position: fixed;
+    top:0%;
+    left:16.5%;
+    width: 85%;
+    padding: 40px;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    font-size: 23px;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Courier Prime", monospace;
+  background-color: #fdfdfe;
+}
+header {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+header h1 {
+  font-size: 70px;
+  font-weight: 300;
+  color: #ffcc00;
+  border-right: 2px solid #000;
+  animation: cursor 1s infinite step-end, typing 21s infinite steps(21);
+  white-space: nowrap;
+  overflow: hidden;
+}
+@keyframes cursor{
+  0%, 100%{border-color: transparent;}
+  50%{border-color: #000;}
+}
+
+@keyframes typing{
+  0%{ width: 0ch} /*Text is hidden*/
+  40%{ width: 17ch;} /*The enitre header will be typed out*/
+  80%{ width: 17ch;} /*Text stays visible*/
+  90%{ width: 0ch;} /*Text is deleted*/
+  100%{ width: 0ch;} /*Text stays hidden*/
+}
+
+p {
+  text-indent: 50px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+
+
+hr.new4 {
+  width: 30%;
+  margin: auto; 
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: 3px solid rgb(253, 253, 253);
+  background-color: rgb(250, 250, 251);
+}

@@ -1,0 +1,149 @@
+/*.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.Sidebar{
+  height: 100%;
+  width: 250px;
+  background-color: rgb(3, 29, 71);
+
+}
+.SidebarList{
+  height: 100%;
+  padding: 0;
+  width: 100%;
+  background-color: rgb(3, 29, 71);
+}
+.SidebarList .row{
+  width: 100%;
+  height: 60px; 
+  list-style-type: none;
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.row #icon{
+  flex:30%;
+  display:grid;
+  place-items:center;
+
+}
+.SidebarList #active{
+  background-color: rgb(3, 29, 71);
+  color: white;
+}
+.SidebarList .row:hover{
+  cursor: pointer;
+  background-color: rgb(2, 19, 46);
+  color: white;
+}
+
+.row #title{
+  flex:70%;
+  
+}
+*/
+
+/*********app.css==========*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.home,
+.reports,
+.products {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+/*===================navbar========*/
+
+.navbar {
+  background-color: #060b26;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+}
+
+.nav-menu {
+  background-color: #060b26;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+ 
+}
+
+.nav-text a:hover {
+  background-color: #9f8315;
+  color: black;
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+  background-color: #060b26;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+span {
+  margin-left: 16px;
+}

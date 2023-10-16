@@ -1,0 +1,178 @@
+.supplierform{
+    position: absolute;
+    left: 50%;
+    align-items: center;
+}
+
+* {
+    box-sizing: border-box;
+  
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(0, 172, 240);
+    border-radius: 4px;
+    resize: vertical;
+    background-color: #000000;
+    color: aliceblue;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color: aliceblue;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container{
+    align-items: center;
+    width:65%;
+    position: relative;
+  }
+  .containerforaddproduct {
+    border-radius: 5px;
+    background-color: #000000e2;
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 70%;
+   
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .addsupplierul{
+  position: absolute;
+  left: 5%;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  }
+  
+  
+.addproductul{
+  position: absolute;
+  left: 18%;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+ 
+ .viewbutton {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #474342;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .viewbutton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .viewbutton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .viewbutton:hover span {
+    padding-right: 25px;
+  }
+  
+  .viewbutton:hover span:after {
+    opacity: 1;
+    right: 0;
+  } 
+
+  .addproductbutton{
+    border: none;
+    border-radius: 5px;
+    outline: 0;
+    color: white;
+    height: 60px;
+    background-color: rgb(101, 246, 109);
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration-color: rgb(254, 254, 254);
+    padding: 15px 20px;
+    display: inline-block;
+    font-weight: bold;
+    width: 180px;
+    }
+  
+    .addproductbutton:hover {
+      background-color: rgb(19, 208, 28);
+    }
+  
+    .cancelproductbutton {
+    border: none;
+    border-radius: 5px;
+    outline: 0;
+    color: white;
+    height: 60px;
+    background-color: rgb(243, 86, 54);
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration-color: rgb(254, 254, 254);
+    display: inline-block;
+    font-weight: bold;
+    width: 180px;
+    }
+  
+    .cancelproductbutton:hover {
+      background-color: #fb0707;
+    }
+
+    .description-style{
+      margin-left: 150px;
+      width: 84%;
+    }

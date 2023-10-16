@@ -1,0 +1,32 @@
+.view_all_suppliers_container{
+    background-color: rgb(182, 179, 177);
+    margin-top: 100px;
+    margin-left: 350px;
+    margin-right: 100px;
+    width: 50%;
+}
+
+.view_all_inquiries_container{
+    background-color: rgb(182, 179, 177);
+    margin-top: 100px;
+    margin-left: 350px;
+    margin-right: 100px;
+    width: 50%;
+    /* margin: 100px 0px 100px 100px; */
+}
+
+.view_all_pending_orders_status_container{
+    background-color: rgb(182, 179, 177);
+    margin-top: 100px;
+    margin-left: 350px;
+    margin-right: 100px;
+    width: 50%;
+    /* margin: 100px 0px 100px 100px; */
+}
+
+.title{
+    color: rgb(226, 179, 216);
+    font-size: x-large;
+    text-align: center;
+    padding-left: 100px;
+}
